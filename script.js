@@ -13,10 +13,9 @@ const compareGuesses =  (user, computer, targetNumber)  => {
     if (computerGuess > userGuess){
         return true
     } else if (computerGuess === userGuess){
-                return true
+        return true
     } else {
         return false
-
     }
 }
 
